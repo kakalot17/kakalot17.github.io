@@ -1,31 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Emoji|Google+Sans');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono');
 * {
-  color: #FFEDE4;
-  font-family: 'Google Sans', sans-serif;
+  margin-top: 40px;
+  color: #E7F9FF;
+  font-family: 'DM Mono', monospace;
 }
 body {
-  background-color: #301400;
-  margin-top: 70px;
+  background-color: #74bff8;
+  margin-top: 140px;
+  margin-left: 20px;
 }
-nav {
-  background-color: #703700;
-  border: #703700;
-  padding: 20px;
-  position: fixed;
+header {
+  background-color: #9fe8ff;
+  position: absolute;
+  top: -50px;
   left: 0px;
-  top: 0px;
   width: 100vw;
+  height: 170px;
 }
-nav button {
-  font-family: 'Noto Emoji';
-  border: 3px solid #BA5D00;
-  border-radius: 3px;
-  background: #BA5D00;
-  padding: 0;
-  font-size: 15px;
-  color: white;
+header h1 {
+  font-size: 40px;
+  height: 20px;
 }
-blog {
-  display: block;
-  border: 3px solid #FFEDE4
+header * {
+  margin-left: 20px;
+  color: #364e5e;
+}
+header img {
+  position: absolute;
+  right: 10px;
+  top: -5px;
 }
