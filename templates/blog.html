@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ section.content | safe }}
+  {% for page in section.pages %}
+    <a href="{{ page.permalink | safe }}">
+      <table style="display: table; width: 100%; color: var(--fgColor-default) !important;">
+        <tr>
+          <th style="text-align: left;"><h3>{{ page.title | safe }}</h3></th>
+        </tr>
+        <tr>
+          <th style="text-align: left; color: var(--fgColor-muted);">
+            {{ page.description | safe }}
+          </th>
+        </tr>
+      </table>
+    </a>
+  {% endfor %}
+{% endblock content %}

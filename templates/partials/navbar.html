@@ -1,0 +1,9 @@
+<nav>
+  {% for item in config.extra.navbar %}
+    <a href="{{ get_url(path=item.url) }}">
+      <i class="ph ph-{{ item.icon }}"></i>
+      {{ item.name }}
+      &nbsp;
+    </a>
+  {% endfor %}
+</nav>

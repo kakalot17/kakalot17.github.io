@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1 style="border: none !important; height: 20px !important;">{{ page.title }}</h1>
+  {% if page.date %}
+    <small>
+      <i class="ph ph-calendar"></i>
+      {{ page.date }}
+    </small>
+  {% endif %} <br>
+  {% if page.taxonomies.tags %}
+    <small>
+    <i class="ph ph-tag"></i> Tags:
+    {% for tag in page.taxonomies.tags %}
+      <code><a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">#{{ tag }}</a></code>
+    {% endfor %}
+    </small>
+  {% endif %}
+  <br><br>
+  {# how do i even understand this #}
+
+  {{ page.content | safe }}
+{% endblock content %}

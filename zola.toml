@@ -1,0 +1,22 @@
+title = "Kakalot's Site"
+base_url = "https://kakalot17.github.io"
+description = "Site of a very young man"
+author = "Mateus Barbosa"
+taxonomies = [
+  { name = "tags" }
+]
+
+[markdown]
+github_alerts = true
+
+[markdown.highlighting]
+theme = "github-dark"
+
+[extra]
+navbar = [
+  { name = "Home", url = "/", icon = "house" },
+  { name = "About", url = "about/", icon = "info" },
+  { name = "Todo", url = "todo/", icon = "list-checks"},
+  { name = "Blog", url = "blog/", icon = "newspaper" }
+]
+footer_note = "This site is made with <i class='ph ph-heart'></i> by Kakalot"

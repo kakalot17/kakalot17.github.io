@@ -1,0 +1,52 @@
+nav {
+  position: fixed;
+  top: 30px;
+  padding: 10px;
+  margin: 0;
+  background-color: var(--bgColor-neutral-muted);
+  border-radius: 6px;
+  backdrop-filter: blur(5px);
+}
+
+.inset {
+  padding: 10px;
+  background-color: var(--bgColor-muted);
+  border: solid 1px var(--borderColor-neutral-muted);
+  border-bottom-color: var(--borderColor-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 3px 0 var(--borderColor-neutral-muted);
+}
+
+footer {
+  font-size: 12px;
+  color: var(--fgColor-muted);
+  border-top: 1px solid var(--borderColor-default);
+  padding-top: 10px;
+}
+
+small {
+  font-size: 12px !important;
+  color: var(--fgColor-muted);
+}
+
+.markdown-alert-note {
+  border-left-color: var(--borderColor-accent-emphasis) !important;
+}
+
+.markdown-alert-important {
+  border-left-color: var(--borderColor-done-emphasis) !important;
+}
+
+
+.markdown-alert-warning {
+  border-left-color: var(--borderColor-attention-emphasis) !important;
+}
+
+.markdown-alert-tip {
+  border-left-color: var(--borderColor-success-emphasis) !important;
+}
+
+
+.markdown-alert-caution {
+  border-left-color: var(--borderColor-danger-emphasis) !important;
+}
