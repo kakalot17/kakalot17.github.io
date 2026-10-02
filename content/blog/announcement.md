@@ -5,7 +5,7 @@ date = 2026-10-02
 template = "blogpost.html"
 
 [taxonomies] 
-tags = ["rust", "zola"] 
+tags = ["zola", "modern"] 
 +++ 
 
 Hey, i'm here to announce that:
@@ -15,3 +15,7 @@ Hey, i'm here to announce that:
 > and sharp corners.
 >
 > It's gonna take a while so, wait!
+>
+> > <small>Also, this was edited inside
+> > github, cause i don't have time to
+> > use my termux.</small>
