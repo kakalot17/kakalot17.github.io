@@ -23,7 +23,7 @@ and code blocks
 console.log("hellooooo")
 ```
 
-and github flavored alerts
+and *how i made it render* github flavored alerts
 
 > [!NOTE]
 > Read this before doing it.
