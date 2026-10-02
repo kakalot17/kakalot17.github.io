@@ -12,7 +12,8 @@ Hey, i'm here to announce that:
 > I am now making a zola
 > theme with a grotesk font
 > (speciffically space grotesk)
-> and sharp corners.
+> and sharp corners. It's named
+> `ExtUI`.
 >
 > It's gonna take a while so, wait!
 >
