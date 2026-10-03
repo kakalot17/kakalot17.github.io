@@ -1,4 +1,5 @@
 +++
+redirect_to = "/maintance"
 template = "section.html"
 +++
 

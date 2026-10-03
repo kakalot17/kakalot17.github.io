@@ -1,6 +1,7 @@
 # ===== Important Data =====
 title = "Kakalot's Site"
 base_url = "https://kakalot17.github.io"
+
 # ===== Optional Data =====
 description = "Site of a very young man"
 author = "Mateus Barbosa"
@@ -26,4 +27,4 @@ navbar = [
   { name = "Todo", url = "todo/", icon = "list-checks"},
   { name = "Blog", url = "blog/", icon = "newspaper" }
 ]
-footer_note = "This site is made with <i class='ph ph-heart'></i> by Kakalot. [View Rss Feed](/rss.xml)"
+footer_note = "**Please be patient**"

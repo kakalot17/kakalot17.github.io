@@ -1,0 +1,22 @@
+{% component special_blockquote(title: string) %}
+
+<!-- even though the name says blockquote, 
+this is just a stylized unsemantic element -->
+
+<div class="cb">
+  <span class="cb-title">{{ title }}</span>
+  {{ body | markdown | safe }}
+</div>
+
+<style>
+  .cb {
+    border-left: 3px solid blue;
+    padding-left: 10px;
+
+    .cb-title {
+      background-color: blue;
+    }
+  }
+</style>
+
+{% endcomponent special_blockquote %}

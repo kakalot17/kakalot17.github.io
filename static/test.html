@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      drawing-pad {
+
+        &::before {
+          content: attr(title);
+          color: #333;
+          background: #ddd;
+        }
+
+        input[type="checkbox"] {
+          appearance: none;
+          -webkit-appearance: none; /* Suporte para navegadores antigos */
+
+          /* 2. Cria o novo design do quadrado vazio */
+          width: 20px;
+          height: 20px;
+          border: 3px solid #81b82b;
+          background-color: #81b82b;
+          outline: none;
+          cursor: pointer;
+          padding: 20.8px !important;
+          margin: -2px !important;
+          /* Alinhamento básico */
+          &:checked {
+            background-color: #355700; /* Cor de fundo quando marcado */
+            border-color: #355700;
+          }
+        }
+      }
+    </style>
+    <title>Drawing pad</title>
+  </head>
+  <body>
+    <h1>Drawing Pad</h1>
+    Y'know what? Normal blog posts with text and headers suck. So let's draw in
+    a 5x5 canvas! <br /><br />
+
+    <drawing-pad>
+      <code>Drawing pad with 2 colors.</code>
+      <div>
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+      </div>
+      <div>
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+      </div>
+      <div>
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+      </div>
+      <div>
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+      </div>
+      <div>
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <input type="checkbox" />
+      </div>
+    </drawing-pad>
+  </body>
+</html>
