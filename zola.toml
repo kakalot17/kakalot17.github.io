@@ -1,17 +1,24 @@
+# ===== Important Data =====
 title = "Kakalot's Site"
 base_url = "https://kakalot17.github.io"
+# ===== Optional Data =====
 description = "Site of a very young man"
 author = "Mateus Barbosa"
 taxonomies = [
   { name = "tags" }
 ]
+# ===== Feeds =====
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
 
+# ===== Markdown =====
 [markdown]
 github_alerts = true
 
 [markdown.highlighting]
 theme = "github-dark"
 
+# ===== Custom Variables =====
 [extra]
 navbar = [
   { name = "Home", url = "/", icon = "house" },
