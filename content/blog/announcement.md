@@ -17,6 +17,12 @@ Hey, i'm here to announce that:
 >
 > It's gonna take a while so, wait!
 >
+
+> [!Note]
+> Actually, it's gonna be my site
+> redesign turned into a zola theme
+
+>
 > > <small>Also, this was edited inside
 > > github, cause i don't have time to
 > > use my termux.</small>
