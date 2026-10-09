@@ -4,9 +4,9 @@ template = "page.html"
 
 [extra]
 more_pages = [
-  { name = "Links", url = "links/" },
-  { name = "Socials", url = "socials/" },
-  { name = "Shortblog", url = "shortblog" }
+  { name = "Links", url = "/links/" },
+  { name = "Socials", url = "/socials/" },
+  { name = "Shortblog", url = "/shortblog" }
 ]
 +++
 
