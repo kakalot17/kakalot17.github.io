@@ -17,8 +17,8 @@ A list of more pages.
 <ul>
 {% for item in page.extra.more_pages %}
   <li>
-    <a href="{{ item.url }}">
-      <p>{{ item.name }}</p>
+    <a href="{{ get_url(path=item.url) | safe }}">
+      {{ item.name }}
     </a>
   </li>
 {% endfor %}
