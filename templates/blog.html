@@ -3,17 +3,17 @@
 {% block content %}
   {{ section.content | safe }}
   {% for page in section.pages %}
-    <a href="{{ page.permalink | safe }}">
-      <table style="display: table; width: 100%; color: var(--fgColor-default) !important;">
-        <tr>
-          <th style="text-align: left;"><h3>{{ page.title | safe }}</h3></th>
-        </tr>
-        <tr>
-          <th style="text-align: left; color: var(--fgColor-muted);">
-            {{ page.description | safe }}
-          </th>
-        </tr>
-      </table>
-    </a>
+      <article>
+          <a href="{{ page.permalink }}">
+            <h2>{{ page.title | safe }}</h2>
+          </a>
+          <p>
+            {{ page.description | safe }} <br/><br/>
+
+            <small>
+              <time>posted {{ page.date | date(format="%Y-%m-%d") }}</time>
+            </small>
+          </p>
+      </article>
   {% endfor %}
 {% endblock content %}

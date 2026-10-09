@@ -4,16 +4,12 @@
   <h1>Posts tagged with "{{ term.name }}"</h1>
   {% for page in term.pages %}
     <a href="{{ page.permalink | safe }}">
-      <table style="display: table; width: 100%; color: var(--fgColor-default) !important;">
-        <tr>
-          <th style="text-align: left;"><h3>{{ page.title | safe }}</h3></th>
-        </tr>
-        <tr>
-          <th style="text-align: left; color: var(--fgColor-muted);">
+      <article>
+          <h3>{{ page.title | safe }}</h3>
+          <p>
             {{ page.description | safe }}
-          </th>
-        </tr>
-      </table>
+          </p>
+      </article>
     </a>
   {% endfor %}
 {% endblock content %}

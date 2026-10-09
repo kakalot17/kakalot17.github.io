@@ -1,0 +1,25 @@
++++
+title = "More pages"
+template = "page.html"
+
+[extra]
+more_pages = [
+  { name = "Links", url = "links/" },
+  { name = "Socials", url = "socials/" },
+  { name = "Shortblog", url = "shortblog" }
+]
++++
+
+# More
+
+A list of more pages.
+
+<ul>
+{% for item in page.extra.more_pages %}
+  <li>
+    <a href="{{ item.url }}">
+      <p>{{ item.name }}</p>
+    </a>
+  </li>
+{% endfor %}
+</ul>

@@ -12,10 +12,9 @@ I needed to use a stylesheet, so i used github-markdown-css cause it's meant for
 
 ## Some features
 
-| I like         |
+| It can         |
 |----------------|
-| how it         |
-| renders tables |
+| render tables  |
 
 and code blocks
 
@@ -23,19 +22,6 @@ and code blocks
 console.log("hellooooo")
 ```
 
-and *how i made it render* github flavored alerts
+and [^1]
 
-> [!NOTE]
-> Read this before doing it.
-
-> [!TIP]
-> Hey! Do this! It will help you.
-
-> [!IMPORTANT]
-> Please do this, it's important.
-
-> [!WARNING]
-> Hey! Don't do that.
-
-> [!CAUTION]
-> WHAT ARE YOU DOING THIS IS DANGEROUS!!!
+[^1]: Footnotes
