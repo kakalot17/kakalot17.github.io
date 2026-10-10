@@ -28,7 +28,8 @@ navbar = [
   { name = "Home", url = "/" },
   { name = "Personal", category = [
     { name = "About", url = "about/" },
-    { name = "Socials", url = "socials/" }
+    { name = "Socials", url = "socials/" },
+    { name = "My Sites", url = "mysites/" }
   ]},
   { name = "Writing", category = [
     { name = "Blog", url = "blog/" },

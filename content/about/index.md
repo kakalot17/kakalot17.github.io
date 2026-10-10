@@ -4,6 +4,7 @@ template = "page.html"
 # About
 Hello, i'm **Kakalot** and i'm 9 years old. I like making stuff and games. <br>
 I have Autism and ADHD.
+I also have various sites. You can see them [here](/mysites/).
 
 | What i like |
 |---|

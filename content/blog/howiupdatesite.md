@@ -10,6 +10,11 @@ tags = ["rust", "zola"]
 Are you feeling too curious? Wanna know how
 i update the site? Now here you go:
 
+> **Edit:** <br>
+> I now have a shell script
+> that lets me easily modify the site.
+> You can also use it and get it [here](/zolatk.sh).
+
 ## 1: Open Code Editor
 First of all, i open Acode and open `repos/kakalot17.github.io`
 folder. (yes i code in a phone)
