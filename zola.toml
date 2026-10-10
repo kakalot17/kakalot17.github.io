@@ -11,7 +11,6 @@ taxonomies = [
 
 # ===== Sassy CSS =====
 compile_sass = true
-
 # ===== Feeds =====
 generate_feeds = true
 feed_filenames = ["rss.xml", "atom.xml"]
@@ -19,9 +18,9 @@ feed_filenames = ["rss.xml", "atom.xml"]
 # ===== Markdown =====
 [markdown]
 github_alerts = true
-
-[markdown.highlighting]
-theme = "monokai"
+highlighting = {
+  theme = "gruvbox-dark-hard"
+}
 
 # ===== Custom Variables =====
 [extra]

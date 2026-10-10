@@ -1,12 +1,10 @@
-<nav>
-  <ul>
-  {% for item in config.extra.navbar %}
-    <li>
-      <a href="{{ get_url(path=item.url) }}">
-        <i class="ph ph-{{ item.icon }}"></i>
-        <span>{{ item.name }}</span>
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
-</nav>
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <span>{{ config.title }}</span>
+  </div>
+  <nav class="sidebar-nav">
+    {% for item in config.extra.navbar %}
+      <a class="nav-link nav-h2" href="{{ get_url(path=item.url) }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</aside>

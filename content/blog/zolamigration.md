@@ -7,7 +7,8 @@ template = "blogpost.html"
 [taxonomies]
 tags = ["zola", "rust"]
 +++
-As i said, i migrated my site to [Zola](getzola.org) so i could easely make blogs. <small>and use markdown</small>.
+As i said, i migrated my site to [Zola](getzola.org) some months ago
+so i could easely make blogs. <small>and use markdown</small>.
 I needed to use a stylesheet, so i used github-markdown-css cause it's meant for markdown. <small>and now the only way to add borders to anything is to use tables</small>
 
 ## Some features
@@ -22,6 +23,5 @@ and code blocks
 console.log("hellooooo")
 ```
 
-and [^1]
-
-[^1]: Footnotes
+and math
+$${f(x) = sin(x)}$$

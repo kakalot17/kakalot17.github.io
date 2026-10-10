@@ -3,13 +3,17 @@
 {% block content %}
   <h1>Posts tagged with "{{ term.name }}"</h1>
   {% for page in term.pages %}
-    <a href="{{ page.permalink | safe }}">
-      <article>
-          <h3>{{ page.title | safe }}</h3>
+    <article>
+          <a href="{{ page.permalink }}">
+            <h2>{{ page.title | safe }}</h2>
+          </a>
           <p>
-            {{ page.description | safe }}
+            {{ page.description | safe }} <br/><br/>
+
+            <small>
+              <time>posted {{ page.date | date(format="%Y-%m-%d") }}</time>
+            </small>
           </p>
-      </article>
-    </a>
+    </article>
   {% endfor %}
 {% endblock content %}

@@ -1,6 +1,7 @@
 +++
 title = "Smallest Blog Ever"
 template = "shortblog.html"
+sort_by = "date"
 +++
 
 # Shortblog

@@ -3,9 +3,9 @@
 {% block content %}
   {{ section.content | safe }}
   {% for smolpost in section.pages %}
-    <div>
+    <article class="shortpost">
       <small>Posted {{ smolpost.date | date(format="%b %d, %Y") }}</small>
       {{ smolpost.content | safe }}
-    </div>
+    </article>
   {% endfor %}
 {% endblock content %}
