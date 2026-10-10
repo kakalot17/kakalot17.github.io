@@ -4,7 +4,14 @@
   </div>
   <nav class="sidebar-nav">
     {% for item in config.extra.navbar %}
-      <a class="nav-link nav-h2" href="{{ get_url(path=item.url) }}">{{ item.name }}</a>
+      {% if item.category %}
+        <b class="nav-link nav-h2">{{ item.name }}</b>
+        {% for page in item.category %}
+          <a class="nav-link nav-h3" href="{{ get_url(path=page.url) }}">{{ page.name }}</a>
+        {% endfor %}
+      {% else %}
+        <a class="nav-link nav-h2" href="{{ get_url(path=item.url) }}">{{ item.name }}</a>
+      {% endif %}
     {% endfor %}
   </nav>
 </aside>
