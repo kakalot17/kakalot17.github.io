@@ -34,6 +34,12 @@ $pageContent" >> "./content/$pageDirName/index.md"
 }
 
 gum style --border "double" --padding "1" "Zola Toolkit"
+echo """
+Easily lets you modify/edit
+your zola site.
+
+--------
+"""
 echo "What do you want?"
 
 case $(gum choose "New site" "Site actions") in
