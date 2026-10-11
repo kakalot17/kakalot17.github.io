@@ -15,8 +15,14 @@ I have various personal sites. Here they are in table-form:
     <th>Where it is</th>
   </tr>
   <tr>
-    <td>Github Pages</td>
+    <td rowspan="3">Github Pages</td>
     <td>kakalot17.github.io (you are here)</td>
+  </tr>
+  <tr>
+    <td>kakalot17.github.io/alternative-site</td>
+  </tr>
+  <tr>
+    <td>kakalot17.github.io/old-website</td>
   </tr>
   <tr>
     <td>Rentry</td>
@@ -24,6 +30,5 @@ I have various personal sites. Here they are in table-form:
   </tr>
 </table>
 
-> Yeah, i only have two 🫪
-> 
-> I mostly lost their link, or i deleted it 🫪
+> i have a lot of Github pages sites,
+> i think i really care about Github Pages
