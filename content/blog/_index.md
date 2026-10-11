@@ -6,4 +6,4 @@ generate_feeds = true
 +++
 
 # Blog
-Blog.
+My blog and thinking space.
