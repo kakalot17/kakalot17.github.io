@@ -1,2 +1,5 @@
-~~this is the branch i will `git commit` on, then switch the main branch to this one~~
-why does it say this
+# Kakalot17.github.io
+My site and blog. Here you can 
+learn about me.
+
+![A card](https://github-stats-extended.vercel.app/api/pin/?username=kakalot17&repo=kakalot17.github.io&theme=light_github_repocard)
