@@ -8,15 +8,20 @@
 # SSG, and modify your 
 # site.
 
-if [[ $(whereis zola) = "zola: " ]]; then
+if [[ $(whereis zola) = "zola:." ]]; then
   echo "Zola Toolkit requires zola to be installed"
   exit 1
+fi
+
+if [[ $(whereis figlet) = "figlet: "  ]]; then
+  echo "The toolkit requires figlet for cool text"
+  exit 2
 fi
 
 if [[ $(whereis gum) = "gum: " ]]; then
   echo "Zola Toolkit requires Gum to be installed"
   echo "Without it, you won't have a GUI to help you with stuff."
-  exit 2
+  exit 3
 fi
 
 new_page() {
@@ -33,7 +38,7 @@ template = '$pageTemplate'
 $pageContent" >> "./content/$pageDirName/index.md"
 }
 
-gum style --border "double" --padding "1" "Zola Toolkit"
+gum style --foreground "2" "$(figlet "Zola Toolkit")"
 echo """
 Easily lets you modify/edit
 your zola site.

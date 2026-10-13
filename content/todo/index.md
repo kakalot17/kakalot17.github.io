@@ -15,6 +15,7 @@ Stuff that i will add.
   - [ ] `sitemap`
      - maybe with [tera](https://keats.github.io/tera)
   - [ ] ~~`colophon`~~, i can't
-  - [x] `microblog` or `miniblog`, literally just [blog](blog/) but <small>smaller</small>.
+  - [x] `microblog` or `miniblog`, literally just [blog](/blog/) but <small>smaller</small>.
     - it's litterally named `shortblog`
+  - [ ] `piclog`, [blog](/blog/) but for images
 - [ ] ~~Add translations like:~~ Just use Google Translate
