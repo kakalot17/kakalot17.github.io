@@ -5,6 +5,7 @@ base_url = "https://kakalot17.github.io"
 title = "Kakalot's Site"
 description = "Site of a very young man"
 author = "Mateus Barbosa"
+theme = "ametrine"
 taxonomies = [
   { name = "tags" }
 ]
@@ -19,22 +20,25 @@ feed_filenames = ["rss.xml", "atom.xml"]
 [markdown]
 github_alerts = true
 highlighting = {
-  theme = "gruvbox-dark-hard"
+  theme = "dracula"
 }
 
 # ===== Custom Variables =====
 [extra]
-navbar = [
-  { name = "Home", url = "/" },
+accent_color = "blue"
+
+[extra.nav]
+links = [
   { name = "Personal", category = [
-    { name = "About", url = "about/" },
-    { name = "Socials", url = "socials/" },
-    { name = "My Sites", url = "mysites/" }
+    { name = "About", url = "about/", icon = "info" },
+    { name = "Socials", url = "socials/", icon = "chats" },
+    { name = "My Sites", url = "mysites/", icon = "globe" }
   ]},
   { name = "Writing", category = [
-    { name = "Blog", url = "blog/" },
-    { name = "Shortblog", url = "shortblog" }
-  ]},
-  { name = "Todo", url = "todo/" }
+    { name = "Blog", url = "blog/", icon = "article" },
+    { name = "Shortblog", url = "shortblog/", icon = "dot" }
+  ]}
 ]
-footer_note = "Made with ❤︎ by Kakalot"
+
+[extra.footer]
+note = "piss"

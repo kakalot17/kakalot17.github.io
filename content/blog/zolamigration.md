@@ -2,7 +2,6 @@
 title = "Zola"
 description = "I migrated this site to zola."
 date = 2026-09-09
-template = "blogpost.html"
 
 [taxonomies]
 tags = ["zola", "rust"]

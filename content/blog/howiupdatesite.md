@@ -2,7 +2,6 @@
 title = "How i update the site"
 description = "The name says it all"
 date = 2026-10-10
-template = "blogpost.html"
 
 [taxonomies]
 tags = ["rust", "zola"]

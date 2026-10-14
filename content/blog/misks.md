@@ -1,7 +1,6 @@
 +++
 title = "misks81633"
 description = "The old side of me."
-template = "blogpost.html"
 draft = true
 +++
 

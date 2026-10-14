@@ -1,7 +1,11 @@
 +++
 title = "blog"
 sort_by = "date"
-template = "blog.html"
+
+template = "article_list.html"
+page_template = "article.html"
+
+paginate_by = 10
 generate_feeds = true
 +++
 

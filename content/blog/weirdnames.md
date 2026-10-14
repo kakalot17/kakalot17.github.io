@@ -2,7 +2,6 @@
 title = "Weird Usernames"
 description = "There's some weird usernames in castle make 'n play"
 date = 2026-05-06
-template = "blogpost.html"
 
 [taxonomies]
 tags = ["names"]

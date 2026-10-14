@@ -1,5 +1,5 @@
 +++
-template = "page.html"
+title = "about"
 +++
 # About
 Hello, i'm **Kakalot** and i'm 9 years old. I like making stuff and games. <br>

@@ -3,7 +3,6 @@ title = "an announcement"
 description = "please click" 
 date = 2026-10-02
 draft = true
-template = "blogpost.html"
 
 [taxonomies] 
 tags = ["zola", "modern"] 
