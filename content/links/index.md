@@ -1,6 +1,8 @@
 +++
 title = "Links"
-template = "page.html"
+
+[extra]
+styles = ["links/badges.css"]
 +++
 
 # Links and Badges
@@ -8,7 +10,7 @@ The name says it all, links and badges.
 
 ## People i know
 
-<div class="inset">
+<div class="card badges">
   
 [![duducat](https://duducat.moe/index/res/buttons/duducat.svg)](https://duducat.moe)
 [![vuvien](https://vuvien.nekoweb.org/vbutton.jpg)](https://vuvien.xyz)
@@ -21,7 +23,7 @@ The name says it all, links and badges.
 
 ## Not humans, made by a human
 
-<div class="inset">
+<div class="card badges">
   
 [![statuscafe](https://status.cafe/assets/button.png)](https://status.cafe)
 [![neocities](https://88by31.neocities.org/web/neocities-org.gif)](https://neocities.org)

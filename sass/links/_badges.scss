@@ -1,0 +1,16 @@
+.badges {
+  display: grid;
+  justify-content: center;  
+  gap: .5rem;
+
+  img {
+    position: relative;
+    transition: all ease-in-out 0.5s;
+    height: 33px;
+    margin: 0;
+
+    &:hover {
+      height: 38px;
+    }
+  }
+}

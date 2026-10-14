@@ -25,7 +25,8 @@ highlighting = {
 
 # ===== Custom Variables =====
 [extra]
-accent_color = "blue"
+accent_color = "hsl(120, 77.6%, 72%)"
+source_url = "https://github.com/kakalot17/kakalot17.github.io"
 
 [extra.nav]
 links = [
@@ -36,9 +37,14 @@ links = [
   ]},
   { name = "Writing", category = [
     { name = "Blog", url = "blog/", icon = "article" },
-    { name = "Shortblog", url = "shortblog/", icon = "dot" }
-  ]}
+    { name = "Shortblog", url = "shortblog/", icon = "dot" },
+    { name = "Todo", url = "todo/", icon = "list-checks" }
+  ]},
+  { name = "Badges", url = "links/", icon = "seal-check" }
 ]
 
 [extra.footer]
-note = "piss"
+note = "Made with ❤︎ by Kakalot"
+show_powered_by = true
+show_source = true
+

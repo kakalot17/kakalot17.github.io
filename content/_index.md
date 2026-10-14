@@ -1,8 +1,5 @@
 +++
 title = "Home"
-
-[extra]
-no_header = true
 +++
 
 # Hello

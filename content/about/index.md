@@ -8,7 +8,7 @@ I also have various sites. You can see them [here](/mysites/).
 
 | What i like |
 |---|
-| <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20"> Octocat |
+| Octocat |
 | Programming/coding |
 | Markdown |
 

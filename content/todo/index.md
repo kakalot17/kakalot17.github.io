@@ -18,4 +18,5 @@ Stuff that i will add.
   - [x] `microblog` or `miniblog`, literally just [blog](/blog/) but <small>smaller</small>.
     - it's litterally named `shortblog`
   - [ ] `piclog`, [blog](/blog/) but for images
-- [ ] ~~Add translations like:~~ Just use Google Translate
+- [ ] Add (brazilian) portuguese translation
+- [ ] Fix <code>[shortblog](/shortblog/)</code> not rendering shortposts?
