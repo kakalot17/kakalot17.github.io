@@ -5,12 +5,9 @@
 
   img {
     position: relative;
-    transition: all ease-in-out 0.5s;
+    image-rendering: pixelated;
+    border-radius: 0 !important;
     height: 33px;
     margin: 0;
-
-    &:hover {
-      height: 38px;
-    }
   }
 }

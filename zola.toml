@@ -27,6 +27,7 @@ highlighting = {
 [extra]
 accent_color = "hsl(120, 77.6%, 72%)"
 source_url = "https://github.com/kakalot17/kakalot17.github.io"
+styles = ["custom.css"]
 
 [extra.nav]
 links = [

@@ -1,8 +1,5 @@
 +++
 title = "Links"
-
-[extra]
-styles = ["links/badges.css"]
 +++
 
 # Links and Badges
