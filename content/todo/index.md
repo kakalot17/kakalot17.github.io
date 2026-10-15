@@ -12,8 +12,7 @@ Stuff that i will add.
 - [x] [Links](links/) page with badges and stamps
 - [ ] ~~Splash screen~~ Scrapped
 - [ ] Add pages to `more` like:
-  - [ ] `sitemap`
-     - maybe with [tera](https://keats.github.io/tera)
+  - [ ] ~~`sitemap`~~ nope
   - [ ] ~~`colophon`~~, i can't
   - [x] `microblog` or `miniblog`, literally just [blog](/blog/) but <small>smaller</small>.
     - it's litterally named `shortblog`

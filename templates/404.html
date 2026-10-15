@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1 class="tri">404</h1>
+  <p>
+    The page you were looking for doesn't
+    exist. Make sure the url is correct
+    and there's no typos.
+  </p>
+  <a href="/" class="button">Go Home</a>
+  <style>
+    .tri {
+      width: fit-content;
+      text-decoration: none;
+      font-size: 60px;
+      animation: spin 2s linear infinite;
+    }
+    @keyframes spin {
+      from {
+        tranform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+{% endblock content %}
