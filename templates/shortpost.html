@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <blockquote class="card">
+    <small>
+      {{ <icon name="clock"/> }} posted {{ page.date | date(format="%B %d %Y ") }}
+    </small>
+    
+    {{ page.content | safe }}
+  </blockquote>
+  <a href="/shortblog/" class="button">Go back to Shortblog</a>
+{% endblock content %}

@@ -18,4 +18,5 @@ Stuff that i will add.
     - it's litterally named `shortblog`
   - [ ] `piclog`, [blog](/blog/) but for images
 - [ ] Add (brazilian) portuguese translation
-- [ ] Fix <code>[shortblog](/shortblog/)</code> not rendering shortposts?
+- [x] Fix <code>[shortblog](/shortblog/)</code> not rendering shortposts?
+  - I fixed it, and enhanced it

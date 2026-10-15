@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ section.content | safe }}
+
+  {% for shortpost in section.pages %}
+    <blockquote class="card">
+      <a href="{{ shortpost.permalink }}"><small>
+        {{ <icon name="clock"/> }} posted {{ shortpost.date | date(format="%B %d %Y ") }}
+
+      </small></a>
+      {{ shortpost.content | safe }}
+    </blockquote>
+    <br>
+  {% endfor %}
+{% endblock content %}
