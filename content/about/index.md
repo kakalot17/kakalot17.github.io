@@ -21,7 +21,7 @@ I also have various sites. You can see them [here](/mysites/).
 | Python |
 | Lua |
 
-I'm <span style="color: var(--fgColor-success);">brazillian</span>,
+I'm <span style="color: var(--green-fg);">brazillian</span>,
 my favorite color is <a href="#">Blue</a>.
 
 | he | his | him |
