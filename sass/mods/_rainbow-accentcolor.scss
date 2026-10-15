@@ -1,0 +1,18 @@
+// SCRAPPED
+@property --accent-color-h {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: 1%;
+}
+
+:root {
+  animation: rainbow 2s;
+}
+@keyframes rainbow {
+  from {
+    --accent-color-h: 1% !important;
+  }
+  to {
+    --accent-color-h: 360% !important;
+  }
+}

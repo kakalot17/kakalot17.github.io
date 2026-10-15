@@ -1,6 +1,11 @@
+// pages
 @use "links/badges";
 
 @use "components/lightmode-warning";
 @use "components/image";
 
+// mods
 @use "../themes/ametrine/sass/mods/pill-tags";
+@use "../themes/ametrine/sass/mods/compact-sidebar";
+@use "mods/betterfont";
+// @use "mods/rainbow-accentcolor";
