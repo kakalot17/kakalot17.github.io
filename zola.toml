@@ -27,7 +27,7 @@ highlighting = {
 [extra]
 accent_color = "hsl(173.4, 100%, 50%)"
 source_url = "https://github.com/kakalot17/kakalot17.github.io"
-styles = ["custom.css"]
+styles = ["index.css"]
 
 [extra.nav]
 links = [
@@ -41,7 +41,8 @@ links = [
     { name = "Shortblog", url = "shortblog/", icon = "dot" },
     { name = "Todo", url = "todo/", icon = "list-checks" }
   ]},
-  { name = "Badges", url = "links/", icon = "seal-check" }
+  { name = "Badges", url = "links/", icon = "seal-check" },
+  { name = "Chat", url = "chat/", icon = "chat" }
 ]
 
 [extra.footer]

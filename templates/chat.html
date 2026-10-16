@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ page.content | safe }}
+  <script src="https://iframe.chat/scripts/main.min.js"></script>
+
+  <iframe 
+    src="https://iframe.chat/embed?chat=14669522" 
+    id="chattable" height="500"
+  ></iframe>
+
+  <style>
+    #chattable {
+      height: 400px !important;
+      min-height: 0 !important;
+      max-height: 400px !important;
+    }
+  </style>
+
+  <script>
+  chattable.initialize({
+    theme: "Professional"
+  });
+  </script>
+{% endblock content %}
