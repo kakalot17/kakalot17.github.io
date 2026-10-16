@@ -17,7 +17,7 @@ title = "Home"
 Hey, i'm **Kakalot** and welcome to my site! This is where you find my stuff, or know about me.
 
 <a href="about/" class="button suggested">About -></a>
-<a href="about/" class="button">Blog ↑</a>
+<a href="blog/" class="button">Blog ↑</a>
 
 <blockquote class="card">
   ignore the broken and double header, i litterally
