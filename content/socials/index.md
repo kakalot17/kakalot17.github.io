@@ -1,6 +1,6 @@
 +++
 title = "Socials"
-template = "page.html"
+redirect_to = "#socials"
 +++
 
 # Socials

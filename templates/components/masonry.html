@@ -1,0 +1,15 @@
+{#- Masonry layout for Markdown content: a `parent` section holds `column`s, which hold items.
+Item bodies are rendered as Markdown unless `raw` is set. -#}
+
+{% component masonry(parent = false, column = 0, type = "", fancy_list = false, raw = false) -%}
+{%- if parent -%}
+<section class="masonry">{{- body | safe -}}</section>
+{%- endif -%} {%- if column -%}
+<div class="column">{{- body | safe -}}</div>
+{%- endif -%} {%- if not parent and not column -%}
+<div class="item{% if type %} {{ type }}{% endif %}{% if fancy_list %} fancy-list{% endif %}">
+  {%- if raw -%} {{- body | safe -}} {%- else -%} {{- body | markdown | safe -}} {%- endif -%}
+</div>
+{%- endif -%}
+
+{%- endcomponent masonry %}

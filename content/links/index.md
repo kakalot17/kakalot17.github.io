@@ -18,14 +18,19 @@ The name says it all, links and badges.
 [![anins1der](https://anins1der.is-a.dev/badges/anins1der.gif)](https://anins1der.is-a.dev)
 </div>
 
-## Not humans, made by a human
-
+## Random badges
+Some link to something, some don't.
 <div class="card badges">
   
 [![statuscafe](https://status.cafe/assets/button.png)](https://status.cafe)
 [![neocities](https://88by31.neocities.org/web/neocities-org.gif)](https://neocities.org)
 [![nekoweb](https://nekoweb.org/assets/buttons/button5.gif)](https://nekoweb.org)
 [![castlemake](https://vuvien.nekoweb.org/c.gif)](https://castle.xyz)
+![dark-mode](/dark-mode.gif)
+[![madewithacode](/acode.png)](https://acode.app)
+[![archive](/archiveorg.gif)](https://web.archive.org)
+[![mobilefriendly](/mobilefriendly.gif)](https://https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)
+
 </div>
 
 

@@ -24,5 +24,5 @@ Stuff that i will add.
 - [ ] Add (brazilian) portuguese translation
 - [x] Fix <code>[shortblog](/shortblog/)</code> not rendering shortposts?
   - I fixed it, and enhanced it
-- [ ] Migrate `about/` and `socials/` to make index
+- [x] Migrate `about/` and `socials/` to make index
 page more longer
