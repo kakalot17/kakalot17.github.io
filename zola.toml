@@ -20,12 +20,12 @@ feed_filenames = ["rss.xml", "atom.xml"]
 [markdown]
 github_alerts = true
 highlighting = {
-  theme = "dracula"
+  theme = "gruvbox-dark-hard"
 }
 
 # ===== Custom Variables =====
 [extra]
-accent_color = "hsl(173.4, 100%, 50%)"
+accent_color = "blue"
 source_url = "https://github.com/kakalot17/kakalot17.github.io"
 styles = ["index.css"]
 

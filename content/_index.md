@@ -98,3 +98,8 @@ This section originally used to be the `socials/` page.
 {% </masonry> %}
 
 {% </masonry> %}
+
+<fieldset>
+  <legend>Test</legend>
+  Pest
+</fieldset>

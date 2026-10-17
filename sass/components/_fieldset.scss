@@ -1,0 +1,29 @@
+@use "../../themes/ametrine/sass/abstracts/functions" as *;
+
+fieldset {
+  appearance: none;
+  -webkit-appearance: none;
+
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-block-start: 2rem;
+  border: rpx(1) dashed var(--bg-muted-2);
+  padding: 1rem;
+  list-style: none;
+
+  legend {
+    appearance: none;
+    -webkit-appearance: none;
+
+    position: absolute;
+    inset-block-start: -0.625rem;
+    inset-inline-start: 0.75rem;
+    background-color: var(--bg-color);
+    padding: 0.25rem;
+    color: var(--fg-muted-2);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-x-small);
+  }
+}
