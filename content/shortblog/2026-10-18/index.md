@@ -7,7 +7,5 @@ Idk why but
 
 ---
 
-<span class="spoiler">
-  She looks so hot
-  <img src="elly.png" alt="Elly."/>
-</span>
+She looks so hot
+<img src="./elly.png" alt="Elly."/>
