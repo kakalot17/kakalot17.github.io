@@ -3,6 +3,8 @@ title = "Why"
 date = 2026-10-18
 +++
 
+<strong class="title">(JOKE)</strong>
+
 Idk why but
 
 ---
