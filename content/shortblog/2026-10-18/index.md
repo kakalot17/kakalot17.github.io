@@ -8,4 +8,4 @@ Idk why but
 ---
 
 She looks so hot
-<img src="./elly.png" alt="Elly."/>
+[![Elly.](./elly.png)](https://castle.xyz/@AlternativeElly)
