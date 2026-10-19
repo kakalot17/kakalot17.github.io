@@ -47,7 +47,7 @@ links = [
 
 [extra.footer]
 note = """Made with ❤︎ by **@Kakalot**!
-pt type="text/javascript" src="https://counter.websiteout.com/js/7/0/0/1"></script>"""
+<script type="text/javascript" src="https://counter.websiteout.com/js/7/0/0/1"></script>"""
 show_powered_by = true
 show_source = true
 
