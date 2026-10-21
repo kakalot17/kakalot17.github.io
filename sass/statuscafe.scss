@@ -1,16 +1,11 @@
 @use "../themes/ametrine/sass/abstracts/functions" as *;
 @use "../themes/ametrine/sass/base/animations";
 @use "../themes/ametrine/sass/base/root";
+@use "mods/betterfont";
 
-:root {
-  --accent-light-h: 29.2;
-  --accent-light-s: 100%;
-  --accent-light-l: 50%;
-}
-
+// idk
 body {
   background-color: var(--bg-color);
-  color: var(--fg-color);
   line-height: 1.5rem;
   font-family: var(--font-sans-serif), var(--font-system-ui), var(--font-emoji);
   text-wrap: pretty;
@@ -94,6 +89,35 @@ a {
   }
 }
 
+// status cafe related things
+
+dl {
+  appearance: none;
+  -webkit-appearance: none;
+
+  display: block;
+  position: relative;
+  
+  margin-block-start: 2rem;
+  border: rpx(1) dashed var(--bg-muted-2);
+  padding: 1rem;
+  width: fit-content;
+
+  dt {
+    appearance: none;
+    -webkit-appearance: none;
+
+    position: absolute;
+    inset-block-start: -0.625rem;
+    inset-inline-start: 0.75rem;
+    background-color: var(--bg-color);
+    padding: 0.25rem;
+    color: var(--fg-muted-2);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-x-small);
+  }
+}
+
 .profile-picture {
   box-shadow: var(--shadow);
   border-radius: 50%;
@@ -124,6 +148,7 @@ a {
   font-weight: var(--font-weight-semi-bold);
 }
 
+// whatever this is
 article + p a {
   display: inline-block;
   transition:
