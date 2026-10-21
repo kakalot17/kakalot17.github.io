@@ -22,7 +22,11 @@ no_header = true
   Heyo!!
 </h1>
 
-Hey, i'm **Kakalot** and welcome to my site! This is where you find my stuff, or know about me.
+Hey, i'm **Kakalot** and welcome to my little
+corner on the web! This is where you find my 
+stuff, or know about me.
+
+{{ <status/> }}
 
 <a href="#about" class="button suggested">About -></a>
 <a href="blog/" class="button">Blog ↑</a>

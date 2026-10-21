@@ -4,14 +4,13 @@ fieldset {
   appearance: none;
   -webkit-appearance: none;
 
-  display: flex;
+  display: block;
   position: relative;
-  flex-wrap: wrap;
-  gap: 0.25rem;
+  
   margin-block-start: 2rem;
   border: rpx(1) dashed var(--bg-muted-2);
   padding: 1rem;
-  list-style: none;
+  width: fit-content;
 
   legend {
     appearance: none;

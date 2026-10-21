@@ -30,6 +30,7 @@ source_url = "https://github.com/kakalot17/kakalot17.github.io"
 styles = ["index.css"]
 
 [extra.nav]
+icon = "favicon.jpg"
 links = [
   { name = "Writing", category = [
     { name = "Blog", url = "blog/", icon = "article" },
