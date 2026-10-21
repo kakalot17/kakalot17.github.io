@@ -2,8 +2,6 @@
 title = "Todo"
 template = "page.html"
 +++
-
-# Todo
 Stuff that i will add.
 
 > [!note]

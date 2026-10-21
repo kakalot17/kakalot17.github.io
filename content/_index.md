@@ -1,5 +1,8 @@
 +++
 title = "Home"
+
+[extra]
+no_header = true
 +++
 
 
@@ -14,7 +17,11 @@ title = "Home"
 
 <div class="card">
 
-# Hello
+<h1>
+  {{ <icon name="git-branch"/> }}
+  Heyo!!
+</h1>
+
 Hey, i'm **Kakalot** and welcome to my site! This is where you find my stuff, or know about me.
 
 <a href="#about" class="button suggested">About -></a>
@@ -65,9 +72,20 @@ I have **autism**. That means you shouldn't SCREAM at
 me, or i like random stuff (?)
 ![Signs of Autism](https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/BigBead/what_is_autism_bigbead/1800x1200_getty_rf_what_is_autism_bigbead.jpg)
 {% </masonry> %}
+
 {% <masonry> %}
 I love markdown. It is the best markup language.
 The syntax is so <ins>easy.</ins>
+{% </masonry> %}
+
+{% <masonry> %}
+I really **do** love forks. It's very useful!
+For eating food, `git clone` and 
+<abbr title="I am not a serial killer. It's just a joke." style="text-decoration: none;">
+  ~~stabbing people with a fork~~
+</abbr>
+
+{{ load_data(path="forked.svg") | safe }}
 {% </masonry> %}
 
 {% </masonry> %}
@@ -98,8 +116,3 @@ This section originally used to be the `socials/` page.
 {% </masonry> %}
 
 {% </masonry> %}
-
-<fieldset>
-  <legend>Test</legend>
-  Pest
-</fieldset>

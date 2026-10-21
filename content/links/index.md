@@ -1,8 +1,6 @@
 +++
-title = "Links"
+title = "Links and Badges"
 +++
-
-# Links and Badges
 The name says it all, links and badges.
 
 ## People i know

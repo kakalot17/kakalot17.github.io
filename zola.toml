@@ -31,11 +31,6 @@ styles = ["index.css"]
 
 [extra.nav]
 links = [
-  { name = "Personal", category = [
-    { name = "About", url = "about/", icon = "info" },
-    { name = "Socials", url = "socials/", icon = "chats" },
-    { name = "My Sites", url = "mysites/", icon = "globe" }
-  ]},
   { name = "Writing", category = [
     { name = "Blog", url = "blog/", icon = "article" },
     { name = "Shortblog", url = "shortblog/", icon = "dot" },
