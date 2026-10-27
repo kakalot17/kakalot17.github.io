@@ -4,10 +4,6 @@ template = "page.html"
 +++
 Stuff that i will add.
 
-> [!note]
-> After a long time, some todos will be removed
-> after a long time.
-
 - [x] Blog (this is a blog, don't you get it 🙃)
 - [ ] Projects page
 - [x] [Links](links/) page with badges and stamps

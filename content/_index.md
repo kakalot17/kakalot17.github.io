@@ -3,6 +3,7 @@ title = "Home"
 
 [extra]
 no_header = true
+scripts = ["home/statuscafe.js"]
 +++
 
 
@@ -15,7 +16,7 @@ no_header = true
 
 </div>
 
-<div class="card">
+{{ <polaroid/> }}
 
 <h1>
   {{ <icon name="git-branch"/> }}
@@ -26,12 +27,11 @@ Hey, i'm **Kakalot** and welcome to my little
 corner on the web! This is where you find my 
 stuff, or know about me.
 
-{{ <status/> }}
 
 <a href="#about" class="button suggested">About -></a>
 <a href="blog/" class="button">Blog ↑</a>
 
-</div>
+<br><br>
 
 ## About
 
@@ -41,7 +41,8 @@ stuff, or know about me.
 
 {% <masonry> %}
 I'm **Kakalot** and i'm 9 years old. I like making
-stuff and games. My actual name is 
+stuff and games. I'm also $\textcolor{green}{brazillian}$.
+My actual name is 
 <span class="spoiler">Mateus Barbosa</span>.
 {% </masonry> %}
 
@@ -66,6 +67,8 @@ stuff and games. My actual name is
 - Lua
 - Markdown
 {% </masonry> %}
+
+
 
 {% </masonry> %}
 
@@ -120,3 +123,65 @@ This section originally used to be the `socials/` page.
 {% </masonry> %}
 
 {% </masonry> %}
+
+# QnA
+
+<div class="card">
+
+<details>
+  <summary>What date of birth?</summary>
+  {{ <icon name="calendar"/> }} April 2nd.
+</details>
+
+<details>
+  <summary>What pronouns?</summary>
+  {{ <icon name="gender-male"/> }} he/him/his, I'm a dude.
+</details>
+
+<details>
+  <summary>What are your favorite artists?</summary>
+    
+   These are my favorite artists:
+  - Alok
+  - Bhaskar
+  - Yves V
+  - Kohen
+
+  Yeah, that's it.
+</details>
+
+<details>
+  <summary>What are your favorite fonts?</summary>
+  Roboto, Space Grotesk, Jetbrains Mono, Google Sans and
+  DM Sans.
+</details>
+
+<details>
+  <summary>Teach me how to code?</summary>
+  I can teach JSON, YAML, Lua, Python and XML.
+</details>
+
+<details>
+  <summary>What's your favorite color?</summary>
+  It is $\textcolor{blue}{blue.}$
+</details>
+
+</div>
+
+<br/>
+
+<div class="end">End of page!!!!</div>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

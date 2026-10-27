@@ -1,20 +1,15 @@
-.elly {
-  display: block;
-  background-image: url("/she.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+@use "polaroid";
 
-  width: 100px;
-  height: 100px;
-  animation: spinny 1s linear infinite;
-}
-
-@keyframes spinny {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.end {
+  border-radius: var(--rounded-corner);
+  width: 100%;
+  color: #fff;
+  background: repeating-linear-gradient(
+    45deg,
+    #ff7c00,
+    #ff7c00 10px,
+    #d36700 10px,
+    #d36700 20px
+  );
+  padding: 10px;
 }

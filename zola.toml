@@ -42,8 +42,8 @@ links = [
 ]
 
 [extra.footer]
-note = """Made with ❤︎ by **@Kakalot**!
-<script type="text/javascript" src="https://counter.websiteout.com/js/7/0/0/1"></script>"""
+note = """Thanks for visiting !!! <br/>
+![mybadge](/mybadge.png#pixels)"""
 show_powered_by = true
 show_source = true
 

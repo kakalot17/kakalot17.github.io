@@ -1,0 +1,23 @@
+{# Credits to daudix.one! #}
+
+{% component polaroid() %}
+
+<div id="polaroid">
+  <div id="polaroid-shine"></div>
+  <div id="polaroid-photo">
+    <img
+      class="full has-alpha no-hover"
+      width="144" height="144"
+      alt="Elly."
+      src="{{ get_url(path='favicon.jpg') }}"
+    />
+  </div>
+  <span id="polaroid-title">Instant photo<br />format</span>
+  <span id="statuscafe-content">Loading…</span>
+  <a id="statuscafe-link" href="https://status.cafe/users/misks81633">
+    <span id="statuscafe-time-ago">0 days ago</span>
+    <span id="statuscafe-face">⏳</span>
+  </a>
+  <script src="https://status.cafe/current-status.js?name=misks81633" defer></script>
+</div>
+{% endcomponent polaroid %}
