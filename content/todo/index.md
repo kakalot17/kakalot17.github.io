@@ -16,7 +16,7 @@ Stuff that i will add.
   - [ ] `piclog`, [blog](/blog/) but for images
   - [ ] `ideas`, my box of ideas
 - [ ] Add (brazilian) portuguese translation
-- [x] Fix <code>[shortblog](/shortblog/)</code> not rendering shortposts?
-  - I fixed it, and enhanced it
+- [ ] Try to figure out why shortposts aren't styled
+  - The only style they have are the arrows
 - [x] Migrate `about/` and `socials/` to make index
 page more longer

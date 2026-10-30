@@ -180,6 +180,9 @@ This section originally used to be the `socials/` page.
     },
     svg: {
       fontCache: 'global'
+    },
+    options: {
+      enableMenu: false // They aren't supposed to find out
     }
   };
 </script>

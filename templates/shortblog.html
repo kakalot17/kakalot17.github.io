@@ -1,16 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-  {{ section.content | safe }}
 
-  {% for shortpost in section.pages %}
-    <blockquote class="card">
-      <a href="{{ shortpost.permalink }}"><small>
-        {{ <icon name="clock"/> }} posted {{ shortpost.date | date(format="%B %d %Y ") }}
+<h1>{{ section.title }}</h1>
 
-      </small></a>
-      {{ shortpost.content | safe }}
-    </blockquote>
-    <br>
+<ul id="nanolog-list">
+  {% for page in section.pages %}
+    <li>
+      <a href="{{ page.permalink | safe }}">
+        <span>{{ page.date | date(format="%B %d, %Y") }}</span>
+      </a>
+      <div>
+        {{ page.content | safe }}
+      </div>
+    </li>
   {% endfor %}
+</ul>
 {% endblock content %}

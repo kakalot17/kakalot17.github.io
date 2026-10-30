@@ -1,12 +1,25 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <blockquote class="card">
-    <small>
-      {{ <icon name="clock"/> }} posted {{ page.date | date(format="%B %d %Y ") }}
-    </small>
-    
-    {{ page.content | safe }}
-  </blockquote>
-  <a href="/shortblog/" class="button">Go back to Shortblog</a>
+<div id="nanolog-post">
+  {%- if page.lower -%}
+    <a id="nanolog-higher" href="{{ page.lower.permalink }}#up">
+      <span>
+        {{ <icon name="arrow-right"/> }}
+        {{ page.lower.date | date(format="%B %d, %Y") }}
+      </span>
+    </a>
+  {%- endif -%}
+
+  {{ page.content | safe }}
+
+  {%- if page.higher -%}
+    <a id="nanolog-lower" href="{{ page.higher.permalink }}#down">
+      <span>
+        {{ <icon name="arrow-left"/> }}
+        {{ page.higher.date | date(format="%B %d, %Y") }}
+      </span>
+    </a>
+  {%- endif -%}
+</div>
 {% endblock content %}
